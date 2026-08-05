@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="t d">
+<title id="t">Contact the project team</title><desc id="d">A message window, speech bubbles and a shield.</desc>
+<defs><linearGradient id="d1" x1="0" x2="1"><stop stop-color="#2033a8"/><stop offset="1" stop-color="#7157df"/></linearGradient></defs>
+<rect x="44" y="42" width="432" height="276" rx="32" fill="#f5f7ff"/>
+<rect x="78" y="82" width="286" height="196" rx="24" fill="#fff" stroke="#d9def8" stroke-width="4"/>
+<path d="M101 115h240L221 212z" fill="#e9ecff"/><path d="M101 115l120 98 120-98" fill="none" stroke="#7587e8" stroke-width="9" stroke-linejoin="round"/>
+<path d="M360 96c0-28 23-51 51-51s51 23 51 51v49c0 35-24 67-51 77-27-10-51-42-51-77z" fill="url(#d1)"/>
+<path d="M389 118l15 15 29-35" fill="none" stroke="#ffd84d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="397" cy="251" r="25" fill="#7157df"/><circle cx="454" cy="251" r="25" fill="#2033a8"/>
+</svg>

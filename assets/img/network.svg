@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="t d">
+<title id="t">Intergenerational cybersecurity network</title><desc id="d">People connected through a multilingual learning and support network.</desc>
+<defs><linearGradient id="c" x1="0" x2="1"><stop stop-color="#2033a8"/><stop offset="1" stop-color="#7157df"/></linearGradient></defs>
+<rect x="40" y="38" width="440" height="284" rx="30" fill="#f5f7ff"/>
+<g stroke="#a5b0ef" stroke-width="9" stroke-linecap="round"><path d="M155 128l105 52 105-52M155 232l105-52 105 52"/></g>
+<g>
+<circle cx="155" cy="128" r="45" fill="#fff" stroke="#d9def8" stroke-width="4"/><circle cx="155" cy="116" r="15" fill="#d4a37f"/><path d="M130 157c7-26 43-26 50 0" fill="#526bdc"/>
+<circle cx="365" cy="128" r="45" fill="#fff" stroke="#d9def8" stroke-width="4"/><circle cx="365" cy="116" r="15" fill="#b97b59"/><path d="M340 157c7-26 43-26 50 0" fill="#7157df"/>
+<circle cx="155" cy="232" r="45" fill="#fff" stroke="#d9def8" stroke-width="4"/><circle cx="155" cy="220" r="15" fill="#e0b18a"/><path d="M130 261c7-26 43-26 50 0" fill="#2033a8"/>
+<circle cx="365" cy="232" r="45" fill="#fff" stroke="#d9def8" stroke-width="4"/><circle cx="365" cy="220" r="15" fill="#8e5a43"/><path d="M340 261c7-26 43-26 50 0" fill="#4a65db"/>
+<circle cx="260" cy="180" r="58" fill="url(#c)"/>
+<path d="M231 180h58M260 151v58" stroke="#ffd84d" stroke-width="11" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="t d">
+<title id="t">Project newsletter</title><desc id="d">A digital newsletter with project updates and cybersecurity tips.</desc>
+<rect x="52" y="48" width="416" height="264" rx="30" fill="#f5f7ff"/>
+<rect x="84" y="80" width="352" height="200" rx="24" fill="#fff" stroke="#d9def8" stroke-width="4"/>
+<rect x="110" y="106" width="116" height="122" rx="18" fill="#2439ae"/>
+<path d="M139 145h58M139 171h58M139 197h42" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".84"/>
+<rect x="252" y="106" width="152" height="16" rx="8" fill="#d9def8"/><rect x="252" y="140" width="128" height="14" rx="7" fill="#d9def8"/><rect x="252" y="168" width="144" height="14" rx="7" fill="#d9def8"/>
+<rect x="252" y="208" width="96" height="36" rx="18" fill="#7157df"/>
+</svg>

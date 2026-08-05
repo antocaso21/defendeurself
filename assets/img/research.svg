@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="t d">
+<title id="t">Cybersecurity research illustration</title><desc id="d">Charts, survey responses and a magnifying glass.</desc>
+<defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#2033a8"/><stop offset="1" stop-color="#7157df"/></linearGradient></defs>
+<rect x="40" y="34" width="440" height="292" rx="30" fill="#f5f7ff"/>
+<rect x="78" y="70" width="250" height="220" rx="22" fill="#fff" stroke="#d9def8" stroke-width="4"/>
+<rect x="108" y="106" width="150" height="14" rx="7" fill="#d9def8"/>
+<rect x="108" y="142" width="34" height="94" rx="10" fill="#9faef4"/><rect x="160" y="166" width="34" height="70" rx="10" fill="#6f83ea"/><rect x="212" y="124" width="34" height="112" rx="10" fill="url(#a)"/>
+<circle cx="383" cy="176" r="58" fill="#e8e7ff" stroke="#7157df" stroke-width="13"/>
+<path d="M425 218l54 54" stroke="#7157df" stroke-width="18" stroke-linecap="round"/>
+<circle cx="374" cy="164" r="10" fill="#2033a8"/><circle cx="405" cy="164" r="10" fill="#2033a8"/>
+<path d="M365 193c18 14 39 14 57 0" fill="none" stroke="#2033a8" stroke-width="8" stroke-linecap="round"/>
+</svg>
