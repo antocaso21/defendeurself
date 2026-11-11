@@ -1,0 +1,60 @@
+/* DefendEUrself course — supplementary styles: preserves main site CSS */
+:root { --course-blue:#2033a8; --course-ink:#18254a; --course-sky:#f2f5fe; --course-outline:#dfe7f6; --course-muted:#61718b; }
+.course-page { background:#fff; }
+.course-kicker { font-size:.81rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:#9beaff; margin:0 0 15px; }
+.course-hero { padding:65px 0 75px; background:linear-gradient(120deg,#17266f 0%,#2543b8 68%,#415fde 100%); color:#fff; }
+.course-hero h1 { color:#fff; font-size:clamp(2.2rem,5vw,4.15rem); max-width:750px; }
+.course-hero p { color:#e9efff; max-width:730px; font-size:1.1rem; }
+.course-hero-highlights { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+.course-hero-highlights span { border:1px solid #b3cbff80; background:#ffffff13; padding:8px 14px; border-radius:50px; font-size:.9rem; color:#fff; }
+.course-small { color:var(--course-muted); font-size:.89rem; }
+.course-main { padding:65px 0 85px; }
+.course-intro { max-width:790px; margin-bottom:34px; }
+.course-intro h2 { font-size:clamp(1.8rem,3vw,2.55rem); margin-bottom:8px; }
+.course-status { padding:14px 17px; border-radius:12px; background:#eaf2ff; color:#203468; margin:0 0 24px; border:1px solid #bdd5ff; }
+.course-status:empty { display:none; }
+.course-levels { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.course-card { border:1px solid var(--course-outline); background:#fff; border-radius:24px; box-shadow:0 16px 45px #233b7914; padding:26px; display:flex; flex-direction:column; min-width:0; }
+.course-card--basic { border-top:5px solid #20a989; }
+.course-card--intermediate { border-top:5px solid #425de4; }
+.course-card--advanced { border-top:5px solid #7f4acb; }
+.course-level-header { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; align-items:center; }
+.course-pill { border-radius:50px; font-size:.76rem; font-weight:800; padding:6px 10px; background:#eaf1ff; color:#2641ab; }
+.course-pill--free { background:#dcf7ed; color:#066c51; }
+.course-card h3 { font-size:1.7rem; margin:24px 0 8px; }
+.course-card p { font-size:.94rem; }
+.course-card .course-count { display:flex; gap:8px; align-items:center; margin:16px 0 25px; color:#516481; font-size:.88rem; }
+.course-card .course-action { margin-top:auto; width:100%; text-align:center; justify-content:center; cursor:pointer; }
+.course-action:focus-visible, .course-module-btn:focus-visible { outline:3px solid #e6b700; outline-offset:3px; }
+.course-card-desc { min-height:99px; }
+.course-panel { margin-top:38px; border-radius:24px; padding:34px; background:#f4f7fe; border:1px solid #e0e6f4; }
+.course-panel h2 { font-size:1.9rem; margin:0 0 10px; }
+.course-panel p { max-width:800px; }
+.course-modules { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:24px; }
+.course-module { background:#fff; border:1px solid #dfe7f4; padding:17px 18px; border-radius:14px; display:flex; align-items:center; gap:15px; }
+.course-module-num { color:#253fa0; background:#e9efff; border-radius:10px; min-width:38px; height:38px; display:grid; place-items:center; font-weight:800; font-size:.85rem; }
+.course-module-name { flex:1; font-weight:700; line-height:1.3; }
+.course-module-btn { border:0; text-decoration:none; padding:9px 12px; font:inherit; font-size:.82rem; font-weight:800; border-radius:10px; background:#2033a8; color:#fff; cursor:pointer; white-space:nowrap; }
+.course-module-btn:hover { background:#182979; color:#fff; }
+.course-module-soon { color:#687b99; background:#eef1f8; padding:8px 10px; border-radius:10px; font-size:.77rem; font-weight:700; white-space:nowrap; }
+.course-hidden { display:none !important; }
+.course-privacy { display:flex; align-items:flex-start; gap:10px; font-size:.9rem; line-height:1.55; color:#334563; }
+.course-privacy input { margin-top:5px; min-width:17px; height:17px; }
+.course-dialog { border:0; padding:0; width:min(490px,calc(100vw - 24px)); max-height:90dvh; overflow:auto; border-radius:22px; box-shadow:0 24px 90px #0b18529c; color:#1d2d50; }
+.course-dialog::backdrop { background:#17244dc9; backdrop-filter:blur(3px); }
+.course-dialog-content { padding:32px; }
+.course-dialog-header { display:flex; align-items:start; justify-content:space-between; gap:14px; }
+.course-dialog h2 { font-size:1.65rem; margin:0 0 8px; }
+.course-close { display:grid; place-items:center; border:0; background:#edf1fb; color:#1a2d61; font-size:1.35rem; width:34px; height:34px; border-radius:9px; cursor:pointer; }
+.course-form { display:grid; gap:12px; margin-top:22px; }
+.course-form label:not(.course-privacy) { display:grid; gap:5px; font-size:.83rem; font-weight:800; }
+.course-form input:not([type=checkbox]),.course-form select { width:100%; border:1px solid #b7c5df; background:#fff; border-radius:10px; min-height:44px; padding:10px 12px; font:inherit; font-weight:400; color:#18254a; }
+.course-form input:focus, .course-form select:focus { outline:3px solid #a3bdff; border-color:#1d42bc; }
+.course-form button[type=submit] { width:100%; justify-content:center; margin-top:8px; border:0; cursor:pointer; }
+.course-form-note { min-height:21px; font-size:.87rem; color:#344f7b; }
+.course-form-note.error { color:#9d1b34; }
+.course-account { display:flex; align-items:center; flex-wrap:wrap; gap:10px; justify-content:space-between; border-top:1px solid #e5eaf5; padding:23px 0; margin-top:35px; }
+.course-signout { font:inherit; font-size:.85rem; color:#2033a8; padding:7px 11px; border:1px solid #c8d4ef; background:#fff; border-radius:10px; cursor:pointer; }
+.course-bottom-notice { margin-top:30px; background:#f7f8fc; border-radius:14px; padding:16px 20px; font-size:.88rem; color:#62728a; }
+@media(max-width:940px) { .course-levels { grid-template-columns:1fr; } .course-card-desc { min-height:auto; } .course-card { padding:24px; } }
+@media(max-width:650px) { .course-main{padding:40px 0 62px} .course-panel{padding:22px 16px} .course-modules{grid-template-columns:1fr}.course-hero{padding:50px 0}.course-dialog-content{padding:24px 20px}.course-module{gap:10px;padding:12px 10px}.course-module-btn{padding:8px}.course-module-name{font-size:.86rem} }
